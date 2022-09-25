@@ -1,0 +1,245 @@
+/* @import */
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap');
+/* Обнулення */
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	border: none;
+	box-sizing: border-box;
+}
+li {
+	list-style: none;
+}
+a {
+	color: inherit;
+}
+a:link,
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+img{
+	vertical-align: top;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+input,
+button,
+textarea {
+	font-family: inherit;
+	font-size: inherit;
+}
+button {
+	cursor: pointer;
+	color: inherit;
+	background-color: inherit;
+}
+body {
+	line-height: 1;
+}
+
+/* Шрифт */
+/* @font-face {
+	font-family: "";
+	src: url("../fonts/") format("woff2"), url("../fonts/") format("woff");
+	font-display: ;
+	font-weight: ;
+	font-style: ;
+	}
+  */
+
+/* -- */
+
+body{
+	font-family: 'Lato', sans-serif;
+	background: url("../img/im.jpg") 0 0 repeat fixed;
+}
+
+[class*="__container"]{
+	max-width: 810px;
+	margin: 0 auto;
+}
+
+/*? Так теж має працювати??? */
+/* У наступній ДЗ спробую*/
+/* [class*="__images"]{
+	max-width: 100%;
+} */
+
+
+
+img{
+	max-width: 100%;
+}
+.header {
+	
+	margin: 20px 0 80px 0;
+}
+/* .header__container {
+	padding: 15px;
+	max-width: 810px;
+	margin: 0 auto;
+} */
+
+.header img{
+	/* max-width: 100%; */
+	margin: 0 20px 0 0;
+}
+.header span{
+	display: inline-block;
+	font-weight: 700;
+	line-height: 160%;
+	margin: 0 0 0 40px;
+}
+header span.primary{
+	color: #FF3F3A;
+}
+
+
+
+.wrapper {
+	background: url("../img/mag.jpg") repeat-x bottom / 550px, url("../img/mag.jpg") repeat-y right, url("../img/mag.jpg") 0 0 repeat-y, url("../img/bom.jpg") 0 0 repeat-x;
+}
+.top {
+	padding: 15px;
+	margin: 0 0 60px 0;
+}
+/* .top__container {
+	padding: 15px;
+	max-width: 810px;
+	margin: 0 auto;
+} */
+.top__center-title {
+	background: url("../img/ecooboi.jpg") 0 0 no-repeat;
+	font-weight: 900;
+	font-size: 46px;
+	line-height: 130%;
+	margin: 0 0 26px 0;
+}
+.top__rticle{
+	margin: 0 0 12px 0;
+}
+.top__article span.one {
+	line-height: 160%;
+	margin: 0 12px 0 0;
+}
+
+.top__article span.two{
+	font-weight: 700;
+	line-height: 160%;
+	color: #FF3F3A;
+	margin: 0 0 0 12px;
+}
+
+.top__article img{
+	/* max-width: 100%; */
+	padding: 5px 0 0 0;
+	margin: 0 8px 0 0;
+}
+.top__time {
+	line-height: 160%;
+	margin: 0 0 40px 0;
+}
+.top__time span.one {
+	color: #787A80;
+	margin: 0 24px 0 0;
+}
+.top__time span.two {
+	color: #787A80;
+	margin: 0 344px 0 0;
+}
+.top__time span.three{
+	font-weight: 700;
+	margin: 0 12px 0 0;
+}
+
+.top__time img{
+	/* max-width: 100%; */
+	padding: 5px 0px 0 0;
+	margin: 0 12px 0 0;
+}
+
+.top__images img{
+	/* max-width: 100%; */
+}
+
+
+.center{
+	background: url("../img/technology.jpg") no-repeat center / 830px, linear-gradient(55.95deg, rgba(103, 32, 29, 0.904) 0%, rgba(195, 162, 43, 0.3) 100%);
+
+	padding: 15px;
+	margin: 0 0 48px 0;
+}
+.center__subtitle {
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 150%;
+	color: aqua;
+	margin: 0 0 24px 0;
+}
+.center__mid {
+	/* background: url("../img/technology.jpg") no-repeat 0 0 / 100%; */
+	font-size: 16px;
+	line-height: 160%;
+	color: azure;
+	margin: 0 0 48px 0;
+	
+}
+
+
+
+.center__text {
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 150%;
+	background: url("../img/icons/braces.svg") 0 5px no-repeat, url("../img/lovepik.jpg") 0 0 / cover no-repeat;
+	padding: 0 0 0 55px;
+}
+
+
+.bottom{
+	line-height: 160%;
+	padding: 15px;
+	margin: 0 0 60px 0;
+	
+}
+.bottom__title {
+	margin: 0 0 24px 0;
+}
+.bottom__list {
+	margin: 0 0 60px 0;
+}
+.bottom__list img{
+	padding: 5px 16px 0 0;
+}
+
+
+.subscribe {
+
+	background: #aac1ee;
+	margin: 0 0 20px 0;
+}
+.subscribe__container{
+	max-width: 1170px;
+	margin: 0 auto;
+	
+}
+
+
+.subscribe__images {
+	background:  linear-gradient(55.95deg, rgba(43, 28, 213, 0.904) 0%, rgba(176, 53, 178, 0.3) 100%), url("../img/pngtree.jpg") 0 0 / cover no-repeat;
+}
+
+
+
